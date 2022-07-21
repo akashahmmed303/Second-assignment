@@ -236,12 +236,11 @@ hr {
 
     /* main section */
     .option {
-        display: flex;
         background-color: white;
+
     }
 
     .link-button {
-        padding: 10px;
         border: 1px solid lightgrey;
     }
 
@@ -287,8 +286,6 @@ hr {
     }
 
     .option {
-        display: flex;
-        flex-direction: column;
         background-color: white;
         margin-top: -60px;
         margin-left: 200px;

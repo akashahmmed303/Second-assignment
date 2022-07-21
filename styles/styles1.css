@@ -189,8 +189,16 @@
   /* for mobile devices */
   @media only screen and (max-width:688px) {
       .container {
-          display: block;
+          display: flex;
           flex-direction: column;
+          justify-self: center;
+
+      }
+
+      .top-banner {
+          display: flex;
+          flex-direction: column;
+          padding: 15px;
       }
 
       .banner {
@@ -200,18 +208,17 @@
 
       .top-banner-info h1 p {
           display: flex;
+          flex-direction: column;
           text-align: center;
       }
 
       .top-banner-image img {
-          width: 300px;
+          width: 30%;
           height: 240px;
       }
 
       /* main section */
       .option {
-          display: flex;
-          flex-direction: row;
           background-color: white;
 
       }
